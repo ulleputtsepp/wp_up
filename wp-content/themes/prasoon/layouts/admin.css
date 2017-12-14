@@ -1,0 +1,40 @@
+/* Blocks widget boxes */
+
+.services-block,.widget-block {
+  margin-bottom: 20px;
+}
+
+.services-block-head,.widget-block-head {
+  background: #f5f5f5;
+  cursor: pointer;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.services-block-head a,.widget-block-head a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.services-block-content,.widget-block-content {
+  display: none;
+  margin: 0 10px;
+}
+
+.services-block-box, .widget-block-box{
+  border: 1px solid #ccc;
+  margin: 5px 0;
+}
+
+span.service-plus,span.widget-plus {
+  float: right;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span.service-minus,span.widget-minus {
+  display: none;
+  float: right;
+  font-size: 18px;
+  font-weight: 600;  
+}
